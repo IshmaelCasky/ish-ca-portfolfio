@@ -2,13 +2,15 @@ import Image from 'next/image'
 import '@/styles/globals.css'
 import { MainContainer, Navigation } from '@/components'
 import { About } from '@/components/Sections'
+import Services from '@/components/Sections/Services'
 
 export default function Home() {
   return (
-    <div className='lg:h-[200vh] font-plus-jakarta-sans'>
+    <div className='lg:h-[300vh] font-plus-jakarta-sans'>
       <Navigation />
       <MainContainer>
         <About />
+        <Services />
       </MainContainer>
     </div>
   )

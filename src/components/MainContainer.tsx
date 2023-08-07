@@ -8,7 +8,7 @@ export default function MainContainer({
 
     return (
         
-        <div className='container mx-auto border-l-[1px] border-r-[1px] border-black border-opacity-20'>
+        <div className=''>
             {children}
         </div>  
     )
