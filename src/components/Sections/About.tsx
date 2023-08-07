@@ -56,12 +56,12 @@ export default function About() {
 
     return (
         <div className='flex border-b-[1px] justify-center items-center border-black border-opacity-20'>
-            <div className='flex xl:flex-row justify-center flex-col-reverse items-center h-[70rem] w-full'>
+            <div className='flex xl:flex-row justify-center flex-col-reverse items-center h-[50rem] w-full'>
                 {/* Info Container p-10 */}
-                <div className='flex flex-grow justify-center flex-col w-[100%]'>
-                    <h1 className='text-[2.5rem] font-extrabold leading-[4rem]'><span className='text-transparent drop-shadow-md bg-clip-text bg-gradient-to-r from-[#B16CEA] via-[#FF6765] to-[#FFA84B]'>Building the web</span> <br/> one line at a time.</h1>
-                    <p className='w-[70%] mt-7 2xl:text-xl text-[#666666]'>Hi! I’m Ish, a web developer based in the Philippines. I create user-friendly web apps for fast-growing startups.</p>
-                    <div className='mt-8 flex'>
+                <div className='flex xl:text-left ssm:text-center xl:p-10 text-center mb-7  flex-col w-[100%]'>
+                    <h1 className='xl:text-[4rem] text-[2.6rem] xl:leading-[4rem] lg:leading-[3rem] font-extrabold leading-[4rem]'><span className='text-transparent drop-shadow-md bg-clip-text bg-gradient-to-r from-[#B16CEA] via-[#FF6765] to-[#FFA84B]'>Building the web</span> <br/> one line at a time.</h1>
+                    <p className='w-[100%] p-3 mt-3 2xl:text-xl text-[#666666]'>Hi! I’m Ish, a web developer based in the Philippines. I create user-friendly web apps for fast-growing startups.</p>
+                    <div className='mt-8 justify-center xl:justify-start flex'>
                         <GradientButton className='w-[8rem]'>Book A Call</GradientButton>
                         <a href="#" className="mt-1 ml-10 font-extrabold group text-black transition duration-300">
                             Download CV
@@ -74,21 +74,35 @@ export default function About() {
                 <div className='relative justify-start items-center flex-grow w-[100%] h-[20%]  flex'>
 
                     <div className='flex justify-center relative w-[100%] h-auto'>
-                        <div className='z-[1] h-auto flex w-[100%] relative justify-center items-center'>
+                        {/* <Image
+                            id='github'
+                            width={25}
+                            src={github}
+                            alt='github'
+                            className=' absolute left-[6.5%] animate-circular1 w-[6%] bg-black rounded-full p-1'
+                        />
+                        <Image
+                            id='linkedin'
+                            width={25}
+                            src={linkedin}
+                            alt='linkedin'
+                            className='absolute left-[94%] w-[6%] animate-circular2 bg-black rounded-full p-1'
+                        /> */}
+                        <div className='z-[1] h-auto flex ssm:w-[90%] sm:w-[60%] md:w-[55%] lg:w-[45%] xl:w-[70%] relative justify-center items-center'>
                             <Image
                                 src={ish}
                                 alt='ish'
-                                className='z-[1] absolute'
+                                className='z-[1]'
                             />
                             <Image
                                 src={ellipse_1}
                                 alt='ellipse'
-                                className='absolute w-[62%]'
+                                className='absolute w-[58%]'
                             />
                             <Image
                                 src={ellipse_2}
                                 alt='ellipse'
-                                className='absolute w-[72%]'
+                                className='absolute w-[70%]'
                             />
                             <Image
                                 src={ellipse_3}
@@ -98,22 +112,22 @@ export default function About() {
                             <Image
                                 src={ellipse_4}
                                 alt='ellipse'
-                                className='absolute w-[92%]'
+                                className='absolute w-[93%]'
                             />
-                            {/* <Image
+                            <Image
                                 id='github'
                                 width={25}
                                 src={github}
                                 alt='github'
-                                className='absolute animate-circular1 bg-black rounded-full p-1'
+                                className=' absolute left-[6.5%] animate-circular1 w-[6%] bg-black rounded-full p-1'
                             />
                             <Image
                                 id='linkedin'
                                 width={25}
                                 src={linkedin}
                                 alt='linkedin'
-                                className='absolute animate-circular2 bg-black rounded-full p-1'
-                            /> */}
+                                className='absolute left-[94%] w-[6%] animate-circular2 bg-black rounded-full p-1'
+                            />
                         </div>
                     </div>
 
