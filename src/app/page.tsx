@@ -5,7 +5,7 @@ import { About } from '@/components/Sections'
 
 export default function Home() {
   return (
-    <div className='w-[100vw] lg:h-[200vh] font-plus-jakarta-sans'>
+    <div className='lg:h-[200vh] font-plus-jakarta-sans'>
       <Navigation />
       <MainContainer>
         <About />
