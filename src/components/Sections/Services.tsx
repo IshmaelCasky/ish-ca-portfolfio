@@ -1,11 +1,17 @@
 "use client";
 
 import { motion } from "framer-motion"
-import { useInView } from "react-intersection-observer";
-import service1 from "@/../public/assets/service1.png";
-import service2 from "@/../public/assets/service2.png";
-import service3 from "@/../public/assets/service3.png";
-import Image from "next/image";
+import { useInView } from "react-intersection-observer"
+import service1 from "@/../public/assets/service1.png"
+import service2 from "@/../public/assets/service2.png"
+import service3 from "@/../public/assets/service3.png"
+import ellipse_1 from '@/../public/assets/ellipse-1.png'
+import ellipse_2 from '@/../public/assets/ellipse-2.png'
+import ellipse_3 from '@/../public/assets/ellipse-3.png'
+import ellipse_4 from '@/../public/assets/ellipse-4.png'
+import vibrant from '@/../public/assets/vibrant.png'
+import ish from '@/../public/assets/ish.png'
+import Image from "next/image"
 
 export default function Services() {
     const [ref, inView] = useInView();
@@ -18,46 +24,101 @@ export default function Services() {
 
     return (
         <div className='border-t-[1px] border-black border-b-[1px] border-opacity-20 h-[100%] w-[100%]'>
-            <div className='container flex mx-auto xl:flex-row relative flex-col border-l-[1px] border-r-[1px] h-auto border-opacity-20 border-black'>
+            <div className='container flex mx-auto xl:flex-row relative flex-col overflow-hidden border-l-[1px] border-r-[1px] h-auto border-opacity-20 border-black'>
                 {/* services 1 column */}
-                <div className='flex p-[2.5%] mt-[2rem] relative flex-col w-auto flex-grow h-[65rem] border-opacity-20 border-black'>
+                <div className='flex p-[2.5%] overflow-hidden mt-[2rem] relative flex-col w-auto flex-grow h-[65rem] border-opacity-20 border-black'>
                     {/* services info */}
                     
-                        <motion.div>
-                            <p className='font-bold text-[1rem]  tracking-[0.15rem]'><span className='text-transparent drop-shadow-md bg-clip-text bg-gradient-to-r from-[#B16CEA] via-[#FF6765] to-[#FFA84B]'>SERVICES</span></p>
-                        </motion.div>
-                        <div className="flex w-auto">
-                            <div className='leading-[2.5rem] sm:leading-[2.8rem] md:leading-[3rem] lg:leading-[3.4rem] xl:leading-[3.7rem] 2xl:leading-[4rem] w-auto relative flex flex-col'>
+                    <motion.div>
+                        <p className='font-bold text-[1rem]  tracking-[0.15rem]'><span className='text-transparent drop-shadow-md bg-clip-text bg-gradient-to-r from-[#B16CEA] via-[#FF6765] to-[#FFA84B]'>SERVICES</span></p>
+                    </motion.div>
+                    <div className="flex w-auto">
+                        <div className='leading-[2.5rem] sm:leading-[2.8rem] md:leading-[3rem] lg:leading-[3.4rem] xl:leading-[3.7rem] 2xl:leading-[4rem] w-auto relative flex flex-col'>
                                 
-                                <p className='text-[2.1rem] w-[100%] sm:text-[2.5rem] md:text-[2.8rem] lg:text-[3rem] xl:text-[3.4rem] flex font-extrabold relative'>Projects that solve 
-                                    <motion.div
-                                        ref={ref}
-                                        variants={variants}
-                                        animate={inView ? "visible" : "hidden"}
-                                        id="box1" className='absolute bg-left-top  w-[100%] flex h-[100%] right-0 rounded-lg bg-gradient-to-r from-[#B16CEA] via-[#FF6765] to-[#FFA84B]'>
+                            <p className='text-[2.1rem] w-[100%] sm:text-[2.5rem] md:text-[2.8rem] lg:text-[3rem] xl:text-[3.4rem] flex font-extrabold relative'>Projects that solve 
+                                <motion.div
+                                    ref={ref}
+                                    variants={variants}
+                                    animate={inView ? "visible" : "hidden"}
+                                    id="box1" className='absolute bg-left-top  w-[100%] flex h-[100%] right-0 rounded-lg bg-gradient-to-r from-[#B16CEA] via-[#FF6765] to-[#FFA84B]'>
 
-                                    </motion.div>
-                                </p>
-                                <p className='text-[2.1rem] w-[100%] sm:text-[2.5rem] md:text-[2.8rem] lg:text-[3rem] xl:text-[3.4rem] flex font-extrabold relative'>problems on code
-                                    <motion.div
-                                        ref={ref}
-                                        variants={variants}
-                                        animate={inView ? "visible" : "hidden"}
-                                        id="box1" className='absolute bg-left-top  w-[100%] flex h-[100%] rounded-lg bg-gradient-to-r from-[#B16CEA] via-[#FF6765] to-[#FFA84B]'>
+                                </motion.div>
+                            </p>
+                            <p className='text-[2.1rem] w-[100%] sm:text-[2.5rem] md:text-[2.8rem] lg:text-[3rem] xl:text-[3.4rem] flex font-extrabold relative'>problems on code
+                                <motion.div
+                                    ref={ref}
+                                    variants={variants}
+                                    animate={inView ? "visible" : "hidden"}
+                                    id="box1" className='absolute bg-left-top  w-[100%] flex h-[100%] rounded-lg bg-gradient-to-r from-[#B16CEA] via-[#FF6765] to-[#FFA84B]'>
 
-                                    </motion.div>
-                                </p>
-                                <p className='text-[2.1rem] w-[50%] sm:text-[2.5rem] md:text-[2.8rem] lg:text-[3rem] xl:text-[3.4rem] flex font-extrabold relative'>at a time
-                                    <motion.div
-                                        ref={ref}
-                                        variants={variants}
-                                        animate={inView ? "visible" : "hidden"}
-                                        id="box1" className='absolute bg-left-top  w-[100%] flex h-[100%] right-0 rounded-lg bg-gradient-to-r from-[#B16CEA] via-[#FF6765] to-[#FFA84B]'>
+                                </motion.div>
+                            </p>
+                            <p className='text-[2.1rem] w-[50%] sm:text-[2.5rem] md:text-[2.8rem] lg:text-[3rem] xl:text-[3.4rem] flex font-extrabold relative'>at a time
+                                <motion.div
+                                    ref={ref}
+                                    variants={variants}
+                                    animate={inView ? "visible" : "hidden"}
+                                    id="box1" className='absolute bg-left-top  w-[100%] flex h-[100%] right-0 rounded-lg bg-gradient-to-r from-[#B16CEA] via-[#FF6765] to-[#FFA84B]'>
 
-                                    </motion.div>
-                                </p>
-                            </div>  
+                                </motion.div>
+                            </p>
+                        </div>  
+                    </div>
+                    {/* -left-[35%] top-[35%] */}
+                    <div className="absolute -left-[85%] top-[20%] ssm:top-[25%] ssm:-left-[80%] 2xl:-left-[48%] 2xl:top-[30%] xl:-left-[57%] xl:top-[25%] lg:-left-[65%] lg:top-[25%] md:-left-[68%] md:top-[25%] sm:-left-[68%] sm:top-[25%]">
+                        <div className='relative justify-start items-center flex-grow w-[100%] h-[20%]  flex'>
+                            <div className='flex justify-center relative w-[100%] h-auto'>
+                                <div className='z-[1] h-auto flex ssm:w-[90%] sm:w-[60%] md:w-[55%] lg:w-[45%] xl:w-[70%] relative justify-center items-center'>
+                                    <Image
+                                        src={ish}
+                                        alt='ish'
+                                        className='z-[1] opacity-0 2xl:w-[60rem] xl:w-[60rem]  lg:w-[90rem]  md:w-[70rem] sm:w-[60rem] w-[40rem]'
+                                    />
+                                    <Image
+                                        src={ellipse_1}
+                                        alt='ellipse'
+                                        className='absolute w-[58%]'
+                                    />
+                                    <Image
+                                        src={ellipse_2}
+                                        alt='ellipse'
+                                        className='absolute w-[70%]'
+                                    />
+                                    <Image
+                                        src={ellipse_3}
+                                        alt='ellipse'
+                                        className='absolute w-[82%]'
+                                    />
+                                    <Image
+                                        src={ellipse_4}
+                                        alt='ellipse'
+                                        className='absolute w-[93%]'
+                                    />
+                                    <Image
+                                        id='service1'
+                                        width={25}
+                                        src={service1}
+                                        alt='service1'
+                                        className=' absolute left-[6.5%] animate-circular1 w-[6%] rounded-full p-1'
+                                    />
+                                
+                                    <Image
+                                        id='service2'
+                                        width={25}
+                                        src={service2}
+                                        alt='service2'
+                                        className='absolute left-[94%] w-[6%] animate-circular2 rounded-full p-1'
+                                    />
+                                </div>
+                            </div>
                         </div>
+                    </div>
+
+                
+                    <div className="relative -top-[20%]">
+                        <Image src={vibrant} alt="vibrant" className="absolute left-[50%]"/>
+                    </div>
+                    
                 </div>
 
                 {/* services 3 columns */}

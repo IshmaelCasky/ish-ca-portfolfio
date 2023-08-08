@@ -75,20 +75,6 @@ export default function About() {
                     <div className='relative justify-start items-center flex-grow w-[100%] h-[20%]  flex'>
 
                         <div className='flex justify-center relative w-[100%] h-auto'>
-                            {/* <Image
-                                id='github'
-                                width={25}
-                                src={github}
-                                alt='github'
-                                className=' absolute left-[6.5%] animate-circular1 w-[6%] bg-black rounded-full p-1'
-                            />
-                            <Image
-                                id='linkedin'
-                                width={25}
-                                src={linkedin}
-                                alt='linkedin'
-                                className='absolute left-[94%] w-[6%] animate-circular2 bg-black rounded-full p-1'
-                            /> */}
                             <div className='z-[1] h-auto flex ssm:w-[90%] sm:w-[60%] md:w-[55%] lg:w-[45%] xl:w-[70%] relative justify-center items-center'>
                                 <Image
                                     src={ish}
