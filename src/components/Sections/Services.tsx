@@ -17,10 +17,10 @@ export default function Services() {
     
 
     return (
-        <div className='border-t-[1px] border-black border-b-[1px] border-opacity-20 w-[100%]'>
-            <div className='container flex mx-auto lg:flex-row relative flex-col border-l-[1px] border-r-[1px] h-auto border-opacity-20 border-black'>
+        <div className='border-t-[1px] border-black border-b-[1px] border-opacity-20 h-[100rem] w-[100%]'>
+            <div className='container flex mx-auto xl:flex-row relative flex-col border-l-[1px] border-r-[1px] h-auto border-opacity-20 border-black'>
                 {/* services 1 column */}
-                <div className='flex p-[2.5%] mt-[2rem] relative flex-col w-auto flex-grow h-[65rem] border-opacity-20 border-black'>
+                <div className='flex p-[2.5%] mt-[2rem] relative flex-col w-auto flex-grow h-[100%] border-opacity-20 border-black'>
                     {/* services info */}
                     
                         <motion.div>
@@ -90,15 +90,15 @@ export default function Services() {
                 </div>
 
                 {/* services 3 columns */}
-                <div className='flex flex-col w-[40%]'>
-                    <div>
+                <div className='flex flex-col 2xl:w-[40%] h-[100%] lg:border-l-[1px] border-l-0 border-black border-opacity-20 lg:w-[100%] xl:w-[40%]'>
+                    <div className="h-[25rem] w-full border-b-[1px] border-black border-opacity-20">
 
                     </div>
-                    <div>
-                        
+                    <div className="h-[25rem] w-full border-b-[1px] border-black border-opacity-20">
+
                     </div>
-                    <div>
-                        
+                    <div className="h-[25rem] w-full border-b-[1px] border-black border-opacity-20">
+
                     </div>
                 </div>        
             </div>

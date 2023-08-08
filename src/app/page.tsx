@@ -6,7 +6,7 @@ import Services from '@/components/Sections/Services'
 
 export default function Home() {
   return (
-    <div className='lg:h-[300vh] font-plus-jakarta-sans'>
+    <div className=' font-plus-jakarta-sans'>
       <Navigation />
       <MainContainer>
         <About />
