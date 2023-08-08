@@ -9,49 +9,68 @@ import ellipse_4 from '@/../public/assets/ellipse-4.png'
 import github from '@/../public/assets/github.png'
 import linkedin from '@/../public/assets/linkedin.png'
 import Image from 'next/image';
+import { animate, useAnimation } from 'framer-motion';
 
 export default function About() {
-
     // Hover Effects
     const handleMouseEnter = () => {
 
        // id github
-        const github = document.getElementById('github');
-        // set width 33
-        github!.style.width = '33px';
+        const github = document.getElementById('github')!;
+        
+        // translate size
+        github.style.width = '8%';
+        // height
+        github.style.height = '8%';
+        // z index
+        github.style.zIndex = '2';
         // transition
-        github!.style.transition = 'width 0.3s ease-in-out';
+        github!.style.transition = 'width 0.5s ease-in-out';
         
     }
 
     const handleMouseLeave = () => {
         // id github
-        const github = document.getElementById('github');
-        // remove scale
-        github!.style.width = '25px';
+        const github = document.getElementById('github')!;
+        
+        // translate size
+        github.style.width = '6%';
+        // height
+        github.style.height = '6%';
+        // z index
+        github.style.zIndex = '0';
         // transition
-        github!.style.transition = 'width 0.3s ease-in-out';
+        github!.style.transition = 'width 0.5s ease-in-out';
     }
 
-    // Hover Effects
     const handleMouseEnter1 = () => {
 
         // id github
-        const github = document.getElementById('linkedin');
-         // set width 33
-        github!.style.width = '33px';
+        const linkedin = document.getElementById('linkedin')!;
+        
+         // translate size
+        linkedin.style.width = '8%';
+         // height
+        linkedin.style.height = '8%';
+         // z index
+        linkedin.style.zIndex = '2';
          // transition
-        github!.style.transition = 'width 0.3s ease-in-out';
+        linkedin!.style.transition = 'width 0.5s ease-in-out';
     
     }
 
     const handleMouseLeave1 = () => {
          // id github
-        const github = document.getElementById('linkedin');
-         // remove scale
-        github!.style.width = '25px';
+        const linkedin = document.getElementById('linkedin')!;
+        
+         // translate size
+        linkedin.style.width = '6%';
+         // height
+        linkedin.style.height = '6%';
+
+        linkedin.style.zIndex = '0';
          // transition
-        github!.style.transition = 'width 0.3s ease-in-out';
+        linkedin!.style.transition = 'width 0.5s ease-in-out';
     }
 
     return (
@@ -115,65 +134,13 @@ export default function About() {
                                     alt='linkedin'
                                     className='absolute left-[94%] w-[6%] animate-circular2 bg-black rounded-full p-1'
                                 />
+                                <div onClick={() => window.open('https://github.com/IshmaelCasky', '_blank')} onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave} className='absolute left-[6.5%] z-[2] opacity-0 animate-circular1 w-[6%] bg-black rounded-full p-1 h-[6%]'>
+                                </div>
+    
+                                <div onClick={() => window.open('https://www.linkedin.com/in/ishmael-cascabel-25b675219', '_blank')} onMouseEnter={handleMouseEnter1} onMouseLeave={handleMouseLeave1} className='absolute left-[94%] w-[6%] opacity-0 animate-circular2 bg-black rounded-full h-[6%] z-[2]'>
+                                </div>
                             </div>
                         </div>
-
-                        {/* <div className='animate-pulse w-[50%] overflow-hidden flex absolute transform  '>
-                            <Image
-                                src={ellipse_1}
-                                alt='ellipse'
-                            />
-                        </div> */}
-
-                        {/* <div className='flex animate-pulse overflow-hidden animation-delay-1300 absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 '>
-                            <Image
-                                src={ellipse_2}
-                                alt='ellipse'
-                            />
-                        </div>
-
-                        <div className='flex animate-pulse overflow-hidden animation-delay-1600 absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 '>
-                            <Image
-                                src={ellipse_3}
-                                alt='ellipse'
-                            />
-                        </div>
-
-                        <div className='flex animation-delay-1900 overflow-hidden absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2'>
-                            <Image
-                                src={ellipse_4}
-                                alt='ellipse'
-                            />
-                        </div> */}
-
-                        {/* <div className='flex hidden duration-300 absolute animate-circular1 bg-black rounded-full p-1 left-[6.2rem] top-[22rem]  '>
-                            <Image
-                                id='github'
-                                width={25}
-                                src={github}
-                                alt='github'
-                            />
-                        </div>
-
-                        <div onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave} className='z-[2] flex absolute animate-circular1 p-6 opacity-0 bg-black rounded-full left-[6.2rem] top-[22rem]  '>
-                            
-                        </div>
-
-                        <div onMouseEnter={handleMouseEnter1} onMouseLeave={handleMouseLeave1} className='z-[2] flex absolute left-[31.9rem] top-[24.5rem] animate-circular2 bg-black rounded-full p-6 opacity-0 '>
-                            
-                        </div> */}
-
-                        {/* flex absolute  bg-black rounded-full p-1 left-[31.9rem] top-[24.5rem]  */}
-                        {/* <div className='flex absolute hidden left-[31.9rem] top-[24.5rem] animate-circular2 bg-black rounded-full p-1'>
-                            <Image
-                                id='linkedin'
-                                width={25}
-                                src={linkedin}
-                                alt='linkedin'
-                            />
-                        </div> */}
-
-                        
                     </div>
                 </div>
             </div>

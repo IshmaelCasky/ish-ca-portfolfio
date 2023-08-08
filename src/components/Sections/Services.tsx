@@ -35,7 +35,7 @@ export default function Services() {
                     <div className="flex w-auto">
                         <div className='leading-[2.5rem] sm:leading-[2.8rem] md:leading-[3rem] lg:leading-[3.4rem] xl:leading-[3.7rem] 2xl:leading-[4rem] w-auto relative flex flex-col'>
                                 
-                            <p className='text-[2.1rem] w-[100%] sm:text-[2.5rem] md:text-[2.8rem] lg:text-[3rem] xl:text-[3.4rem] flex font-extrabold relative'>Projects that solve 
+                            <div className='text-[2.1rem] w-[100%] sm:text-[2.5rem] md:text-[2.8rem] lg:text-[3rem] xl:text-[3.4rem] flex font-extrabold relative'><p>Projects that solve </p>
                                 <motion.div
                                     ref={ref}
                                     variants={variants}
@@ -43,8 +43,8 @@ export default function Services() {
                                     id="box1" className='absolute bg-left-top  w-[100%] flex h-[100%] right-0 rounded-lg bg-gradient-to-r from-[#B16CEA] via-[#FF6765] to-[#FFA84B]'>
 
                                 </motion.div>
-                            </p>
-                            <p className='text-[2.1rem] w-[100%] sm:text-[2.5rem] md:text-[2.8rem] lg:text-[3rem] xl:text-[3.4rem] flex font-extrabold relative'>problems on code
+                            </div>
+                            <div className='text-[2.1rem] w-[100%] sm:text-[2.5rem] md:text-[2.8rem] lg:text-[3rem] xl:text-[3.4rem] flex font-extrabold relative'><p>problems on code</p>
                                 <motion.div
                                     ref={ref}
                                     variants={variants}
@@ -52,8 +52,8 @@ export default function Services() {
                                     id="box1" className='absolute bg-left-top  w-[100%] flex h-[100%] rounded-lg bg-gradient-to-r from-[#B16CEA] via-[#FF6765] to-[#FFA84B]'>
 
                                 </motion.div>
-                            </p>
-                            <p className='text-[2.1rem] w-[50%] sm:text-[2.5rem] md:text-[2.8rem] lg:text-[3rem] xl:text-[3.4rem] flex font-extrabold relative'>at a time
+                            </div>
+                            <div className='text-[2.1rem] w-[50%] sm:text-[2.5rem] md:text-[2.8rem] lg:text-[3rem] xl:text-[3.4rem] flex font-extrabold relative'><p>at a time</p>
                                 <motion.div
                                     ref={ref}
                                     variants={variants}
@@ -61,10 +61,10 @@ export default function Services() {
                                     id="box1" className='absolute bg-left-top  w-[100%] flex h-[100%] right-0 rounded-lg bg-gradient-to-r from-[#B16CEA] via-[#FF6765] to-[#FFA84B]'>
 
                                 </motion.div>
-                            </p>
+                            </div>
                         </div>  
                     </div>
-                    {/* -left-[35%] top-[35%] */}
+                    {/* circle  */}
                     <div className="absolute -left-[85%] top-[20%] ssm:top-[25%] ssm:-left-[80%] 2xl:-left-[48%] 2xl:top-[30%] xl:-left-[57%] xl:top-[25%] lg:-left-[65%] lg:top-[25%] md:-left-[68%] md:top-[25%] sm:-left-[68%] sm:top-[25%]">
                         <div className='relative justify-start items-center flex-grow w-[100%] h-[20%]  flex'>
                             <div className='flex justify-center relative w-[100%] h-auto'>
