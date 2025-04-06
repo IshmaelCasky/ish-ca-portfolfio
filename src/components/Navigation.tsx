@@ -8,10 +8,10 @@ export default function Navigation() {
                 <div className='flex-grow'>
                     {/* navigation : about, experience, projects, let's Talk*/}
                     <ul className='md:flex hidden font-bold justify-end'>
-                        <li className='mr-6'>About</li>
-                        <li className='mr-6'>Experience</li>
-                        <li className='mr-6'>Projects</li>
-                        <li className='mr-6 text-transparent drop-shadow-md bg-clip-text bg-gradient-to-r from-[#B16CEA] via-[#FF6765] to-[#FFA84B]'>{"Let's"} Talk</li>
+                        <li className='mr-6 cursor-pointer'><a href="#about">About</a></li>
+                        {/* <li className='mr-6 cursor-pointer'>Experience</li> */}
+                        <li className='mr-6 cursor-auto'><a href="#projects">Projects</a></li>
+                        <li className='mr-6 cursor-auto text-transparent bg-clip-text bg-gradient-to-r from-[#B16CEA] via-[#FF6765] to-[#FFA84B]'><a href="#letstalk">{"Let's"} Talk</a></li>
                     </ul>
                 </div>
             </div>

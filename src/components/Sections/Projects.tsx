@@ -121,7 +121,7 @@ export default function Projects() {
   }, [])
 
   return (
-    <div className="border-l-[1px] border-b-[1px] border-r-[1px] w-full relative flex mx-auto border-black border-opacity-20">
+    <div id="projects" className="border-l-[1px] border-b-[1px] border-r-[1px] w-full relative flex mx-auto border-black border-opacity-20">
       <div className="w-full max-w-6xl mx-auto px-4 py-16 relative">
         {/* Decorative elements */}
         <motion.div

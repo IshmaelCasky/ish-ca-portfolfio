@@ -14,7 +14,7 @@ import { motion } from 'framer-motion';
 
 export default function Contact() {
   return (
-    <div className="relative container mx-auto border-l-[1px] xl:h-[40rem] h-[80rem] overflow-x-hidden border-r-[1px] border-black border-opacity-20">
+    <div id='letstalk' className="relative container mx-auto border-l-[1px] xl:h-[40rem] h-[80rem] overflow-x-hidden border-r-[1px] border-black border-opacity-20">
       <div className="flex flex-col justify-center overflow-hidden z-10 h-full items-center relative">
         <div className="flex xl:flex-row justify-start flex-col-reverse items-center h-full  lg:h-[80rem] 2xl:h-[80rem] w-full">
           {/* Info Container */}

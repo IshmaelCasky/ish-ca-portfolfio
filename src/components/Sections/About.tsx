@@ -72,7 +72,7 @@ const handleMouseLeave1 = () => {
 }
 
 return (
-  <div className='container mx-auto border-l-[1px] border-r-[1px] border-black border-opacity-20'>
+  <div id='about' className='container mx-auto border-l-[1px] border-r-[1px] border-black border-opacity-20'>
       <div className='flex justify-center items-center'>
           <div className='flex xl:flex-row justify-center flex-col-reverse items-center lg:h-[50rem] 2xl:h-[50rem]  w-full'>
               {/* Info Container p-10 */} 
