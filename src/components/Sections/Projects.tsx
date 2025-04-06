@@ -125,7 +125,7 @@ export default function Projects() {
       <div className="w-full max-w-6xl mx-auto px-4 py-16 relative">
         {/* Decorative elements */}
         <motion.div
-          className="absolute top-10 right-20 w-12 h-12"
+          className="absolute top-[15rem] right-20 w-12 h-12"
           initial={{ rotate: 0 }}
           animate={{ rotate: 360 }}
           transition={{ duration: 20, repeat: Number.POSITIVE_INFINITY, ease: "linear" }}
@@ -133,21 +133,8 @@ export default function Projects() {
           <div className="w-full h-full bg-gradient-to-br from-pink-500 to-orange-400 transform rotate-45"></div>
         </motion.div>
 
-        <motion.div
-          className="absolute bottom-20 left-10 w-16 h-8 bg-gradient-to-r !rotate-45 from-pink-500 to-[#FFA84B] rounded-t-full"
-          initial={{ y: 0, rotate: 50 }}
-          animate={{ y: [0, -10, 0] }}
-          transition={{ duration: 3, repeat: Number.POSITIVE_INFINITY, ease: "easeInOut" }}
-        ></motion.div>
+    
 
-        <motion.div
-          className="absolute right-10 bottom-40 w-14 h-14"
-          initial={{ y: 0 }}
-          animate={{ y: [0, 10, 0] }}
-          transition={{ duration: 4, repeat: Number.POSITIVE_INFINITY, ease: "easeInOut" }}
-        >
-          <div className="w-full h-full bg-gradient-to-br from-orange-400 to-red-400 transform rotate-45"></div>
-        </motion.div>
 
         {/* Heading */}
         <div className="text-center mb-12">

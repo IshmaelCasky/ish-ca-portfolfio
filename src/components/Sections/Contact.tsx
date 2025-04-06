@@ -14,15 +14,15 @@ import { motion } from 'framer-motion';
 
 export default function Contact() {
   return (
-    <div className="relative container mx-auto border-l-[1px] overflow-x-hidden border-r-[1px] border-black border-opacity-20">
-      <div className="flex flex-col justify-center overflow-hidden z-10 items-center relative">
-        <div className="flex xl:flex-row justify-center flex-col-reverse items-center lg:h-[40rem] 2xl:h-[40rem] w-full">
+    <div className="relative container mx-auto border-l-[1px] xl:h-[40rem] h-[80rem] overflow-x-hidden border-r-[1px] border-black border-opacity-20">
+      <div className="flex flex-col justify-center overflow-hidden z-10 h-full items-center relative">
+        <div className="flex xl:flex-row justify-start flex-col-reverse items-center h-full  lg:h-[80rem] 2xl:h-[80rem] w-full">
           {/* Info Container */}
           <div className="flex xl:text-left ssm:text-center xl:p-10 lg:mb-[3rem] text-center mb-7 flex-col w-full z-10">
             <div className='ml-3'>
                 <p className='font-bold text-[1rem]  tracking-[0.15rem]'><span className='text-transparent drop-shadow-md bg-clip-text bg-gradient-to-r from-[#B16CEA] via-[#FF6765] to-[#FFA84B]'>SEND ME AN EMAIL</span></p>
             </div>
-            <p className="max-w-[40rem] p-3 mt-3 2xl:text-xl text-black">
+            <p className="w-full xl:max-w-[40%] p-3 mt-3 2xl:text-xl text-black">
               Currently, I am looking for opportunities and accepting freelance projects. If you think I am a good asset, kindly send me a message.
             </p>
             <div className="mt-8 xl:ml-[1rem] justify-center xl:justify-start flex">
@@ -40,15 +40,8 @@ export default function Contact() {
           <div className="w-full h-full bg-gradient-to-br from-pink-500 to-orange-400 transform rotate-45"></div>
         </motion.div>
 
-        <motion.div
-          className="absolute bottom-20 left-10 w-16 h-8 bg-gradient-to-r !rotate-45 from-pink-500 to-[#FFA84B] rounded-t-full"
-          initial={{ y: 0, rotate: 50 }}
-          animate={{ rotate: 360 }}
-          transition={{ duration: 3, repeat: Number.POSITIVE_INFINITY, ease: "easeInOut" }}
-        ></motion.div>
-
         {/* Right-side Circle - Half Hidden */}
-        <div className="absolute right-[-20%] top-1/2 transform -translate-y-1/2 w-[40rem] h-[40rem] pointer-events-none">
+        <div className="absolute ssm:-right-[70%] -right-[80%] xl:-right-[20%] md:-right-[30%] sm:-right-[20%] lg:-right-[29%] top-1/2 transform -translate-y-1/2 w-[40rem] h-[40rem] pointer-events-none">
           <div className="relative w-full h-full flex items-center justify-center">
             <div className="relative z-[1] flex justify-center items-center w-full h-full">
               <Image
