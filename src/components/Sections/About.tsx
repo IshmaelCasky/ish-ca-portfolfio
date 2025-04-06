@@ -32,7 +32,7 @@ export default function About() {
               <br /> one line at a time.
             </h1>
             <p className="w-[100%] p-3 mt-3 2xl:text-xl text-[#666666]">
-              Hi! I'm Ish, a web developer based in the Philippines. I create user-friendly web apps for fast-growing
+              Hi! I&lsquo;m Ish, a web developer based in the Philippines. I create user-friendly web apps for fast-growing
               startups.
             </p>
             <div className="mt-8 xl:ml-[1rem] justify-center xl:justify-start flex">
