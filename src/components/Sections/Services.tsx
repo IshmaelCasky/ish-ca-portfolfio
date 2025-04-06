@@ -155,7 +155,7 @@ export default function Services() {
                             </div>
                         </div>
                     </div>
-                    <div className="h-[25rem] flex w-full border-b-[1px] justify-center content-center border-black border-opacity-20">
+                    <div className="h-[25rem] flex w-full  justify-center content-center border-black border-opacity-20">
                         <div className="flex justify-center items-center w-[80%]">
                             <div className="flex h-[50%] p-2 pr-10 items-start">
                                 <Image src={service2} className="w-[6rem] " alt="service2" />
