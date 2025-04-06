@@ -78,7 +78,7 @@ return (
               {/* Info Container p-10 */} 
               <div className='flex xl:text-left ssm:text-center xl:p-10 lg:mb-[3rem] text-center mb-7  flex-col w-[100%]'>
                   <h1 className='xl:text-[4rem] ssm:p-2 text-[2.6rem] xl:leading-[4rem] lg:leading-[3rem] font-extrabold leading-[4rem]'><span className='text-transparent drop-shadow-md bg-clip-text bg-gradient-to-r from-[#B16CEA] via-[#FF6765] to-[#FFA84B]'>Building the web</span> <br/> one line at a time.</h1>
-                  <p className='w-[100%] p-3 mt-3 2xl:text-xl text-[#666666]'>Hi! I’m Ish, a web developer based in the Philippines. I create user-friendly web apps for fast-growing startups.</p>
+                  <p className='w-[100%] p-3 mt-3 2xl:text-xl text-[#666666]'>Hi! Im Ish, a web developer based in the Philippines. I create user-friendly web apps for fast-growing startups.</p>
                   <div className='mt-8 xl:ml-[1rem] justify-center xl:justify-start flex'>
                       <GradientButton className='w-[8rem]'>Book A Call</GradientButton>
                       <a href="#" className="mt-1 ml-10 font-extrabold group text-black transition duration-300">
