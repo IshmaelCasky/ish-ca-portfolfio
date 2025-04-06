@@ -145,12 +145,12 @@ export default function Services() {
                                 <Image src={service3} className="w-[6rem] " alt="service3" />
                             </div>
                             <div>
-                                <h2 className="text-[1.5rem] font-bold">What I can do for you</h2>
-                                <p className="mt-4 mb-7 w-[90%] text-[1.1rem] opacity-75">Faster, better, products that your users will love. Here`s all the services that I provide :</p>
+                                <h2 className="text-[1.5rem] font-bold">Applications I’m fluent in</h2>
+                                <p className="mt-4 mb-7 w-[90%] text-[1.1rem] opacity-75">Every programmer needs the right tools to do the perfect job. Thankfully, I’m multilingual.</p>
                                 <ul className="list-disc">
-                                    <li className="font-bold py-1">Web Development</li>
-                                    <li className="font-bold py-1">Web Design</li>
-                                    <li className="font-bold py-1">Comissions</li>
+                                    <li className="font-bold py-1">Next.Js</li>
+                                    <li className="font-bold py-1">Laravel</li>
+                                    <li className="font-bold py-1">Figma</li>
                                 </ul>
                             </div>
                         </div>
@@ -161,12 +161,12 @@ export default function Services() {
                                 <Image src={service2} className="w-[6rem] " alt="service2" />
                             </div>
                             <div>
-                                <h2 className="text-[1.5rem] font-bold">What I can do for you</h2>
-                                <p className="mt-4 mb-7 w-[90%] text-[1.1rem] opacity-75">Faster, better, products that your users will love. Here`s all the services that I provide :</p>
+                                <h2 className="text-[1.5rem] font-bold">What you can expect</h2>
+                                <p className="mt-4 mb-7 w-[90%] text-[1.1rem] opacity-75">I build products that are more than pretty. I make them shippable and usable.</p>
                                 <ul className="list-disc">
-                                    <li className="font-bold py-1">Web Development</li>
-                                    <li className="font-bold py-1">Web Design</li>
-                                    <li className="font-bold py-1">Comissions</li>
+                                    <li className="font-bold py-1">Clean and Functional</li>
+                                    <li className="font-bold py-1">User Friendly</li>
+                                    <li className="font-bold py-1">Efficient and Maintainable</li>
                                 </ul>
                             </div>
                         </div>
